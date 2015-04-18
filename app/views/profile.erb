@@ -1,0 +1,101 @@
+
+
+  <%= erb :_profiles %>
+
+  <div class="attribute_list">
+      <div class="affectionate">
+        <h1 class="attr_header">Affectionate
+         <br> <span class="large_number"><%=@view_dog.ratings.where(affectionate: "on").count %></span> <br>votes </h1>
+       </div>
+      <div class="independent">
+        <h1 class="attr_header">Independent
+       <br> <span class="large_number"><%=@view_dog.ratings.where(independent: "on").count %></span> <br>votes </h1>
+     </div>
+      <div class="playful">
+        <h1 class="attr_header">Playful
+       <br> <span class="large_number"><%=@view_dog.ratings.where(playful: "on").count %></span> <br>votes </h1>
+     </div>
+      <div class="timid">
+        <h1 class="attr_header">Timid
+       <br> <span class="large_number"><%=@view_dog.ratings.where(timid: "on").count %></span> <br>votes </h1>
+     </div>
+      <div class="good_with_kids">
+        <h1 class="attr_header">Good w/ Kids
+       <br> <span class="large_number"><%=@view_dog.ratings.where(good_with_kids: "on").count %></span> <br>votes </h1>
+     </div>
+      <div class="high_energy">
+        <h1 class="attr_header">High Energy
+       <br> <span class="large_number"><%=@view_dog.ratings.where(high_energy: "on").count %></span> <br>votes </h1>
+     </div>
+      <div class="chill">
+        <h1 class="attr_header">Chill
+       <br> <span class="large_number"><%=@view_dog.ratings.where(chill: "on").count %></span> <br>votes </h1>
+     </div>
+  </div>
+
+  <div class="comments_section">
+    <h1>What Everyone is Saying About <%=@view_dog.name%></h1>
+    <% if !@valid_comments.blank? %>
+      <% @valid_comments.each do |rating| %>
+        <% if rating.comments.length < 50 %>
+          <div class="bubble" style="background-color: <%= @colors.sample %>">
+            <p><%= rating.comments %></p>
+          </div>
+        <% else %>
+          <div class="bubble-long" style="background-color: <%= @colors.sample %>">
+            <p><%= rating.comments %></p>
+          </div>
+        <% end %>
+      <% end %>
+    <% end %>
+  </div>
+
+
+   <div class="share_feed">
+    <h1>Volunteer Share Feed</h1>
+      <% if !@valid_videos.blank? %>
+      <% @valid_videos.each do |rating| %>
+
+      <iframe width="460" height="315" src="https://www.youtube.com/embed/<%= rating.video_url.split('=')[-1] %>" frameborder="0" allowfullscreen></iframe>
+      <% end %>
+      <% else %>
+      <p>No videos available at this moment.</p>
+    <% end %>
+  </div>
+
+
+  <div class="rate_section">
+    <button><h2>Rate <%= @view_dog.name %>!</h2></button><br>
+    <form action="/dogs/<%=@view_dog.id%>" method="post" class="rate_form" id="<%=@view_dog.id%>">
+    <h3>What is <%= @view_dog.name %> like? </h3>
+
+      <input type="checkbox" name="dog[affectionate]"> Affectionate <br><br>
+
+      <input type="checkbox" name="dog[independent]"> Independent <br><br>
+
+      <input type="checkbox" name="dog[playful]" > Playful<br><br>
+
+      <input type="checkbox" name="dog[timid]"> Timid<br><br>
+
+      <input type="checkbox" name="dog[good_with_kids]"> Good with Kids<br><br>
+
+      <input type="checkbox" name="dog[high_energy]"> High Energy<br><br>
+
+      <input type="checkbox" name="dog[chill]"> Chill <br><br>
+
+      <label for="video_link">Youtube Video Link: </label>
+      <input type="text" name="dog[video_url]" id="video_link"> </textarea><br>
+
+      <label for="comment_field"><span id="comment_label">Comments:</span> </label>
+      <textarea name="dog[comments]" id="comment_field"> </textarea><br>
+
+      <button type="submit" id="rate_submit_button"> Submit </button>
+
+    </form>
+  </div>
+
+      <div class="padding"></div>
+
+</div>
+
+

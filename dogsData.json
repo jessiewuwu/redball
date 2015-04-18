@@ -1,0 +1,771 @@
+{
+    "collection1": [
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=6779374",
+          "text": "Alfred"
+        },
+        "breed": "Australian Shepherd",
+        "gender": "Male",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/6779/6779374/24620416_373x498.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=6779374",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8257022",
+          "text": "Anne Bonny"
+        },
+        "breed": "Parson Russell Terrier / Mixed",
+        "gender": "Female",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/8257/8257022/24978921_500x750.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8257022",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=7659959",
+          "text": "Atlas"
+        },
+        "breed": "Chihuahua",
+        "gender": "Male",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/7659/7659959/22848307_500x281.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=7659959",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=7542233",
+          "text": "Atticus"
+        },
+        "breed": "Husky / Shepherd / Mixed",
+        "gender": "Male",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/7542/7542233/24421635_500x500.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=7542233",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8186639",
+          "text": "Augusto"
+        },
+        "breed": "Labrador Retriever / Mixed",
+        "gender": "Male",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/8186/8186639/24731228_500x750.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8186639",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=7796453",
+          "text": "Baby"
+        },
+        "breed": "Pekingese",
+        "gender": "Female",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/7796/7796453/24593145_500x615.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=7796453",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8237641",
+          "text": "Bella"
+        },
+        "breed": "Cocker Spaniel / Mixed",
+        "gender": "Female",
+        "image": {
+          "src": "http://cdn-www.dailypuppy.com/dog-images/pico-the-cocker-spaniel_72523_2013-09-20_w450.jpg",
+          "href": "",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8257164",
+          "text": "Bagel"
+        },
+        "breed": "Cocker Spaniel / Mixed",
+        "gender": "Male",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/8257/8257164/24978375_500x750.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8257164",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8250817",
+          "text": "Blossom"
+        },
+        "breed": "Poodle",
+        "gender": "Female",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/8250/8250817/25025910_480x640.jpg",
+          "href": "",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8260967",
+          "text": "Blaze"
+        },
+        "breed": "Pit Bull Terrier",
+        "gender": "Male",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/8260/8260967/24993595_500x750.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8260967",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8250826",
+          "text": "Bubbles"
+        },
+        "breed": "Terrier",
+        "gender": "",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/8250/8250826/24964658_480x640.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8250826",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8225714",
+          "text": "Buster"
+        },
+        "breed": "Pit Bull Terrier",
+        "gender": "Male",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/8225/8225714/24869254_500x750.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8225714",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8250824",
+          "text": "Buttercup"
+        },
+        "breed": "Terrier",
+        "gender": "Female",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/8250/8250824/24964634_480x640.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8250824",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8210902",
+          "text": "Ceasar"
+        },
+        "breed": "Pit Bull Terrier",
+        "gender": "Male",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/8210/8210902/24868987_500x750.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8210902",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=7598590",
+          "text": "Cracker"
+        },
+        "breed": "Husky",
+        "gender": "Male",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/7598/7598590/24686217_500x750.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=7598590",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8257249",
+          "text": "Dylan"
+        },
+        "breed": "Miniature Pinscher",
+        "gender": "Male",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/8257/8257249/24978635_500x750.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8257249",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8257189",
+          "text": "EB"
+        },
+        "breed": "Cocker Spaniel / Mixed",
+        "gender": "Male",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/8257/8257189/24978513_500x750.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8257189",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8217837",
+          "text": "Falcon"
+        },
+        "breed": "Chihuahua",
+        "gender": "Male",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/8217/8217837/24853929_500x750.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8217837",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8225674",
+          "text": "Felipe"
+        },
+        "breed": "Labrador Retriever / Mixed",
+        "gender": "Male",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/8225/8225674/24869027_500x750.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8225674",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8121899",
+          "text": "Finn"
+        },
+        "breed": "Chihuahua / Mixed",
+        "gender": "Male",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/8121/8121899/24565836_500x666.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8121899",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8257172",
+          "text": "Flossy"
+        },
+        "breed": "Cocker Spaniel / Mixed",
+        "gender": "Female",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/8257/8257172/24978494_500x750.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8257172",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=6908652",
+          "text": "Georgie Girl"
+        },
+        "breed": "Chihuahua / Terrier / Mixed",
+        "gender": "Female",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/6908/6908652/20585507_500x375.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=6908652",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8217803",
+          "text": "Hermosa"
+        },
+        "breed": "Chihuahua / Mixed",
+        "gender": "Female",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/8217/8217803/24869298_500x792.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8217803",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8257188",
+          "text": "Hershey Girl"
+        },
+        "breed": "Cocker Spaniel / Mixed",
+        "gender": "Female",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/8257/8257188/24978517_500x750.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8257188",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=7942541",
+          "text": "Homer"
+        },
+        "breed": "Chihuahua",
+        "gender": "Male",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/7942/7942541/23877046_500x333.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=7942541",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8188001",
+          "text": "Isabella"
+        },
+        "breed": "Cocker Spaniel / Mixed",
+        "gender": "Female",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/8188/8188001/24978535_500x750.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8188001",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8250708",
+          "text": "Moosie"
+        },
+        "breed": "Chinese Shar-Pei",
+        "gender": "Female",
+        "image": {
+          "src": "http://www.cspca.com/RotatorImages/oYDYY-SdDFT-kXLsY-Becham.jpg",
+          "href": "",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=7950845",
+          "text": "Jimmy Stewart"
+        },
+        "breed": "Schnauzer / Mixed",
+        "gender": "Male",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/7950/7950845/23860973_500x750.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=7950845",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8255276",
+          "text": "Koko"
+        },
+        "breed": "Poodle / Mixed",
+        "gender": "Male",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/8255/8255276/25013313_480x640.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8255276",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8257265",
+          "text": "Lucky"
+        },
+        "breed": "Terrier / Mixed",
+        "gender": "Male",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/8257/8257265/24979653_500x750.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8257265",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8217820",
+          "text": "Malika"
+        },
+        "breed": "Labrador Retriever / Mixed",
+        "gender": "Female",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/8217/8217820/24854306_500x333.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8217820",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8217785",
+          "text": "Mari"
+        },
+        "breed": "Boxer / Mixed",
+        "gender": "Female",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/8217/8217785/24866119_500x666.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8217785",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8217600",
+          "text": "Mei Mei"
+        },
+        "breed": "Chihuahua / Mixed",
+        "gender": "Female",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/8217/8217600/24950754_500x500.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8217600",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8257293",
+          "text": "Rocky Balboa"
+        },
+        "breed": "Chihuahua / Mixed",
+        "gender": "Male",
+        "image": {
+          "src": "http://thedogwallpaper.com/wp-content/uploads/2013/12/terrier-chihuahua-mix-pictures-160.jpg",
+          "href": "",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=7996966",
+          "text": "Mike"
+        },
+        "breed": "Chihuahua",
+        "gender": "Male",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/7996/7996966/24169914_500x666.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=7996966",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=6936972",
+          "text": "Miso"
+        },
+        "breed": "Chihuahua / Mixed",
+        "gender": "Female",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/6936/6936972/20586894_426x568.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=6936972",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=7954787",
+          "text": "Mr. Little"
+        },
+        "breed": "Terrier / Mixed",
+        "gender": "Male",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/7954/7954787/24447745_500x500.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=7954787",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8187721",
+          "text": "Nadine"
+        },
+        "breed": "Pit Bull Terrier / Mixed",
+        "gender": "Female",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/8187/8187721/24748174_500x750.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8187721",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=7862853",
+          "text": "Paisley"
+        },
+        "breed": "Australian Shepherd",
+        "gender": "Female",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/7862/7862853/24590721_500x334.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=7862853",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8225718",
+          "text": "Palomo"
+        },
+        "breed": "Labrador Retriever / Mixed",
+        "gender": "Male",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/8225/8225718/24869287_500x750.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8225718",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=7122468",
+          "text": "Pepper"
+        },
+        "breed": "Dachshund / Mixed",
+        "gender": "Male",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/7122/7122468/24336707_500x500.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=7122468",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8052799",
+          "text": "Princess"
+        },
+        "breed": "Siberian Husky",
+        "gender": "Female",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/8052/8052799/24266351_500x333.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8052799",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=6846352",
+          "text": "Ringo"
+        },
+        "breed": "Chihuahua / Mixed",
+        "gender": "Male",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/8257/8257293/25012595_500x333.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=6846352",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8257286",
+          "text": "Willow"
+        },
+        "breed": "Chihuahua / Pug / Mixed",
+        "gender": "Female",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/8262/8262363/24996119_480x640.jpg",
+          "href": "",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8187743",
+          "text": "Santiago"
+        },
+        "breed": "Chihuahua",
+        "gender": "Male",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/8187/8187743/24770529_500x750.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8187743",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8103888",
+          "text": "Sir Windy"
+        },
+        "breed": "Terrier / Chihuahua / Mixed",
+        "gender": "Male",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/8103/8103888/24513516_480x640.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8103888",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8056553",
+          "text": "Snow"
+        },
+        "breed": "Siberian Husky",
+        "gender": "Male",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/8056/8056553/24770416_500x750.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8056553",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=7598298",
+          "text": "Snuggles"
+        },
+        "breed": "Spaniel / Terrier / Mixed",
+        "gender": "Male",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/7598/7598298/24686267_500x750.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=7598298",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=7646101",
+          "text": "Speckles"
+        },
+        "breed": "American Bulldog / Pit Bull Terrier / Mixed",
+        "gender": "Female",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/7646/7646101/22780615_500x700.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=7646101",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=7161183",
+          "text": "Spitfire"
+        },
+        "breed": "Poodle / Pekingese / Mixed",
+        "gender": "Male",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/7161/7161183/24686241_500x750.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=7161183",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=7886219",
+          "text": "Squirrel"
+        },
+        "breed": "Terrier",
+        "gender": "Male",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/7886/7886219/23715641_500x356.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=7886219",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=7996448",
+          "text": "Sully"
+        },
+        "breed": "Chihuahua",
+        "gender": "Male",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/7996/7996448/24548759_500x375.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=7996448",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=7942608",
+          "text": "Tanner"
+        },
+        "breed": "Chihuahua",
+        "gender": "Male",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/7942/7942608/23860986_500x750.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=7942608",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8186643",
+          "text": "Tequila"
+        },
+        "breed": "Labrador Retriever / Mixed",
+        "gender": "Female",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/8186/8186643/24731145_500x750.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8186643",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=6879281",
+          "text": "Toby"
+        },
+        "breed": "Poodle",
+        "gender": "Male",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/6879/6879281/24770357_500x750.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=6879281",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=7517740",
+          "text": "Waldo"
+        },
+        "breed": "Chihuahua / Mixed",
+        "gender": "Male",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/7517/7517740/24455895_240x320.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=7517740",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8095479",
+          "text": "Willis"
+        },
+        "breed": "Chinese Shar-Pei / Pit Bull Terrier / Mixed",
+        "gender": "Male",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/8095/8095479/24593153_500x333.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8095479",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=7677975",
+          "text": "Zahara"
+        },
+        "breed": "Shepherd / Pointer / Mixed",
+        "gender": "Female",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/8257/8257286/25012620_500x750.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=7677975",
+          "text": ""
+        }
+      },
+      {
+        "dog_name": {
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8052823",
+          "text": "Zane"
+        },
+        "breed": "Siberian Husky",
+        "gender": "Male",
+        "image": {
+          "src": "https://s3.amazonaws.com/filestore.rescuegroups.org/4516/pictures/animals/8052/8052823/24421737_500x500.jpg",
+          "href": "http://norcalfamilydogrescue.rescuegroups.org/animals/detail?AnimalID=8052823",
+          "text": ""
+        }
+      }
+    ]
+  }

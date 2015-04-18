@@ -1,0 +1,35 @@
+<div class="search_show">
+        <div class="search_container">
+          <form action="/search" method="post" id="search_form">
+            <input type='text' name='breed' placeholder="  search for a breed" size="40">
+            <input type='submit' value='submit' style='visibility: hidden;'>
+          </form>
+          <div class="search-result search-result-template" style="display: none;">
+            <img />
+            <p class="search_results"></p>
+          </div>
+        </div>
+
+        <div class="search_section">
+
+        </div>
+      </div>
+
+
+
+<% if @breed_list.length > 0 %>
+  <p>testing, the breed_list length is > 0 </p>
+    <% @breed_list.each do |dog| %>
+    <%= dog.name  %>
+    <% end %>
+
+<% else %>
+  <div class="error_search">
+    <span class="error_red"><%= @no_breed %></class>
+    <p>try our <a href='/randomize'>randomize option </a>and see what you get!</p>
+  </div>
+<% end %>
+
+
+
+    <!-- <button id="add" type="submit">Search</button> -->

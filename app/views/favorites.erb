@@ -1,0 +1,38 @@
+<div id="fave_container">
+
+  <h1>Your Favorites!</h1>
+
+  <% if @user_faves.empty? %>
+    <p>You currently have no favorites. Check out the <a href="/browse">Browse</a> page for available dogs.</p>
+
+  <% else %>
+      <% @user_faves.each do |fave| %>
+  <div class="whole_profile" data-dog-id='<%= fave.dog_id%>'>
+  <div class="fave-header">
+    <p>FAVORITE</p>
+  </div>
+  <div class="dog-info-table">
+
+    <div class="dog-name-header">
+      <sup><%= Dog.find(fave.dog_id).name  %></sup>
+    </div>
+    <div class="content">
+        <a href="/dogs/<%= fave.dog_id%>"><img src="<%= Dog.find(fave.dog_id).image_link%>" height="170px"></a>
+        <p>Breed: <%= Dog.find(fave.dog_id).breed%></p>
+        <p>Sex: <%= Dog.find(fave.dog_id).gender%></p>
+        <% if Dog.find(fave.dog_id).favorites.count == 1 %>
+        <p>Favorited <strong><%= Dog.find(fave.dog_id).favorites.count%></strong> time</p>
+        <% else %>
+        <p>Favorited <strong><%= Dog.find(fave.dog_id).favorites.count%></strong> times</p>
+        <% end %>
+
+    </div>
+
+    <div class="link-bottom">
+      <a href="/dogs/<%= fave.dog_id%>" class="bottom"><p class="rb-link">Red Ball Rating Profile</p></a>
+    </div>
+  </div>
+    <button class='remove-button'>Remove from Favorites</button>
+</div>
+      <% end %>
+<% end %>

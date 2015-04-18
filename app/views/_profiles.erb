@@ -1,0 +1,43 @@
+<div class="list">
+  <div class="profile_panel">
+    <div class="pic_left">
+      <img src=<%= @view_dog.image_link %> style="padding: 50px 50px 50px 50px"/>
+    </div>
+
+    <div class="description">
+      <span class="dog_name"><%= @view_dog.name%> </span>
+      <p><strong>Breed:</strong> <%= @view_dog.breed%> </p>
+        <% if @view_dog.gender == "Male"%>
+          <p><strong>Gender:</strong> <%= @view_dog.gender%> <i class="fa fa-mars"></i>  </p>
+
+        <% elsif @view_dog.gender == "Female" %>
+          <p><strong>Sex:</strong> <%= @view_dog.gender%> <i class="fa fa-venus"></i></p>
+        <% else %>
+          <p><strong>Gender:</strong> Unknown <i class="fa fa-circle-thin"></i></p>
+        <% end%>
+
+      <button id="fdr_button"><a href=<%= @view_dog.direct_url%>>Full Profile on Family Dog Rescue</a></button><br>
+      <a href="mailto:adopt@norcalfamilydogrescue.org?subject=Interested in Adopting/Fostering&body=Hey! I would like to set a playdate!">
+        <i class="fa fa-paper-plane"></i>
+      Email FDR about this dog!</a><br><br>
+
+      <% if request.xhr? %>
+      <a href="/dogs/<%=@view_dog.id%>">Click here to see <%=@view_dog.name%>'s ratings</a>
+      <% end %>
+
+    </div>
+
+    <div class="bio">
+        <p><strong>Description:</strong></p>
+        <span class="words"> <%= @view_dog.description%> </span>
+        <p><i class="fa fa-heart"></i>  Favorited: </p>
+
+        <% if @view_dog.favorites.count == 1 %>
+          <span class="words"><%= @view_dog.favorites.count%> time <span class="words"> </span>
+        <% else  %>
+          <span class="words"><%= @view_dog.favorites.count%> times <span class="words"> </span>
+        <% end %>
+
+    </div>
+
+  </div>

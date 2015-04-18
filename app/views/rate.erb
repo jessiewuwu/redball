@@ -1,0 +1,35 @@
+
+<div class="sub_container">
+
+<form action="/dogs/<%=@view_dog.id %>" method="post">
+
+  <div class="padding"></div>
+
+  <h3>Name:</h3><p> <%= @view_dog.name%></p><br>
+  <h3>Breed:</h3><p> <%= @view_dog.breed %></p>
+
+  <br>
+  <h2>Rate <%= @view_dog.name %>!</h2>
+<br><br>
+  <input type="checkbox" name="dog[affectionate]"> Affectionate <br><br>
+
+  <input type="checkbox" name="dog[independent]"> Independent <br><br>
+
+  <input type="checkbox" name="dog[playful]" > Playful<br><br>
+
+  <input type="checkbox" name="dog[timid]"> Timid<br><br>
+
+  <input type="checkbox" name="dog[good_with_kids]"> Good with Kids<br><br>
+
+  <input type="checkbox" name="dog[high_energy]"> High Energy<br><br>
+
+  <input type="checkbox" name="dog[chill]"> Chill <br><br><br><br>
+
+  <button type="submit"> Submit </button>
+
+  <div class="padding"></div>
+
+</form>
+</div>
+
+

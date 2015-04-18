@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="icon" type="image/png" href="favicon.ico" sizes="32x32" />
+  <link rel="icon" type="image/png" href="./imgs/favicon-16x16.png" sizes="16x16" />
+
+
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/application.css">
+  <link href='http://fonts.googleapis.com/css?family=Questrial|Press+Start+2P' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.3/themes/smoothness/jquery-ui.css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="//code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
+  <script src="/js/application.js"></script>
+
+  <title>red ball</title>
+</head>
+<body>
+
+  <div class ="nav_bar">
+    <ul>
+      <li><a href="/">red ball</a> </li>
+      <li><a href="/search">search</a></li>
+      <li><a href="/browse">browse</a></li>
+      <li><a href="/favorites" id="favorites-link">your favorites</a></li>
+      <li><a href="/randomize" id="randomize-link">randomize!</a></li>
+      <li><a href="/crazydogs" id="crazy_dogs_link">crazy dog person</a></li>
+      <% if logged_in? %>
+      <li id="logout_link"><a href="/logout">log out</a></li>
+      <% end %>
+    </ul>
+  </div>
+  <div class="blacken">
+    <%= yield %>
+  </div>
+  <div class="spacing"></div>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+
+<div class="playground_section">
+  <h2>Add dogs to the Playground!</h2>
+  <h3>Drag the dog's photo here and click on it to get their profile</h3>
+  <button class="favorite-button">Add to Favorites</button>
+</div>
+
+<div id="hide_show">
+  <button id="hide">Hide Playground</button>
+  <button id="show">Show Playground</button>
+</div>
+
+<div class="browse_container" >
+
+  <div class="browse_list">
+      <% @all_dogs.each_slice(3) do |row| %>
+      <br>
+      <div class="row">
+          <% row.each do |dog| %>
+          <% if dog.id.to_i % 3 == 1 %>
+            <div class="left_column" id="<%=dog.id%>">
+              <%= erb :_dog_info, :locals => {dog: dog} %>
+            </div>
+
+            <% elsif dog.id.to_i % 3 == 2 %>
+              <div class="center_column" id="<%=dog.id%>">
+               <%= erb :_dog_info, :locals => {dog: dog} %>
+             </div>
+
+             <% elsif dog.id.to_i % 3 == 0 %>
+               <div class="right_column" id="<%=dog.id%>">
+                  <%= erb :_dog_info, :locals => {dog: dog} %>
+               </div>
+              <% end %>
+            <%end%>
+        <br>
+    </div>
+        <% end %>
+  </div>
+
+<div class="profile_show">
+
+</div>
+
+
+  <div class="clear"></div>
+</div>

@@ -1,0 +1,17 @@
+<div class="list">
+
+<!-- <img src="./imgs/<%= @view_dog.id %>.jpg" width="300px" style="float:left; padding-bottom: 20px"/> -->
+<p>Name: <%= @view_dog.name%> </p>
+<p>Breed: <%= @view_dog.breed%> </p>
+<p>Age: <%= @view_dog.age%> </p><br>
+<p>Description: <%= @view_dog.description%> </p><br>
+<br><br><br>
+
+<a href="/dogs/<%=@view_dog.id%>/edit">Edit</a>
+
+<form action="/dogs/<%=@view_dog.id%>/delete" method="post">
+  <input type="hidden" name="_method" value="delete">
+  <input type='submit' value='Delete'>
+</form>
+</div>
+

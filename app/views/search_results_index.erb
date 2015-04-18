@@ -1,0 +1,42 @@
+<div class="search_container_index">
+
+  <% if @breed_list.empty? %>
+    <%= erb :_search_form %>
+  <div class="no-results">
+    <p class="no-results-message">No results found. Please try again.</p>
+  </div>
+
+  <% else %>
+
+    <% @breed_list.each do |dog| %>
+    <div class="whole_profile_search_index" data-dog-id='<%= dog.id%>'>
+    <div class="fave-header">
+      <p>Dog</p>
+    </div>
+    <div class="dog-info-table">
+
+      <div class="dog-name-header">
+        <sup><%= dog.name  %></sup>
+      </div>
+      <div class="content">
+          <a href="/dogs/<%= dog.id%>"><img src="<%= dog.image_link%>" height="150px"></a>
+          <p>Breed: <%= dog.breed%></p>
+          <p>Sex: <%= dog.gender%></p>
+          <% if dog.favorites.count == 1 %>
+          <p>Favorited <strong><%= dog.favorites.count%></strong> time</p>
+          <% else %>
+          <p>Favorited <strong><%= dog.favorites.count%></strong> times</p>
+          <% end %>
+
+      </div>
+
+      <div class="link-bottom">
+        <a href="/dogs/<%=dog.id%>" class="bottom"><p class="rb-link">Red Ball Rating Profile</p></a>
+      </div>
+    </div>
+
+</div>
+    <% end %>
+
+<% end %>
+
