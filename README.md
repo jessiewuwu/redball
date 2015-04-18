@@ -1,6 +1,6 @@
 
 ### Purpose :dog:
-red ball is an online community that encourages adoption and fostering with a social aspect. Similarly to product reviews by users on Amazon, volunteers that have interacted with available dogs can leave ratings so that potential adopters can gain a better gauge of the dog's personality.
+red ball is an online community that encourages adoption and fostering from a interactive social aspect. Similar to product reviews by users on Amazon, volunteers that have interacted with available dogs can leave ratings so that potential adopters can gain a better gauge of the dog's personality.
 
 
 ### Quickstart :floppy_disk:
@@ -29,4 +29,4 @@ red ball was my final project for Phase 2 of Dev Bootcamp and presented on March
 
 
 
-## Please check back for new updates! ##
+#### Please check back for new updates! ####
