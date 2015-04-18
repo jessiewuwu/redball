@@ -17,8 +17,8 @@ red ball was my final project for Phase 2 of Dev Bootcamp and presented on March
 
 ### In Progress - April 18, 2015 :open_file_folder:
 1. **Run on Rails -** Currently red ball is running on Sinatra + PostgresSQL.
-2. **Responsive Design - ** For a Phase 3 final group project, I was able to learn how to make websites responsive, in particular using Bootstrap's grid system.
-3. **Testing - ** Due to the time restraint, I focused on delivering the project on time, thus I didn't test anything. I'd like to practice testing in Cabybara.
+2. **Responsive Design -** For a Phase 3 final group project, I was able to learn how to make websites responsive, in particular using Bootstrap's grid system.
+3. **Testing -** Due to the time restraint, I focused on delivering the project on time, thus I didn't test anything. I'd like to practice testing in Cabybara.
 
 
 ### Rocket Challenges :rocket:
