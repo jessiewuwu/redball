@@ -19,6 +19,7 @@ red ball was my final project for Phase 2 of Dev Bootcamp and presented on March
 1. **Run on Rails -** Currently red ball is running on Sinatra + PostgresSQL.
 2. **Responsive Design -** For a Phase 3 final group project, I was able to learn how to make websites responsive, in particular using Bootstrap's grid system.
 3. **Testing -** Due to the time restraint, I focused on delivering the project on time, thus I didn't test anything. I'd like to practice testing in Cabybara.
+4. **Search function-** Implement pg_search, fuzzy search, or some way where user can easily find a breed without having to type out the exact breed name in the database.
 
 
 ### Rocket Challenges :rocket:
