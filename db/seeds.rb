@@ -53,3 +53,4 @@ seed_dogs(@dog_data["collection1"])
 
 seed_ratings(random_traits, comments)
 
+all_breeds = ["Australian Shepherd", "Parson Russell Terrier / Mixed", "Chihuahua", "Husky / Shepherd / Mixed", "Labrador Retriever / Mixed", "Pekingese", "Cocker Spaniel / Mixed", "Poodle", "Pit Bull Terrier", "Terrier", "Husky", "Miniature Pinscher", "Chihuahua / Mixed", "Siberian Husky", "Chihuahua / Terrier / Mixed", "Chinese Shar-Pei", "Schnauzer / Mixed", "Poodle / Mixed", "Terrier / Mixed", "Boxer / Mixed", "Pit Bull Terrier / Mixed", "Dachshund / Mixed", "Chihuahua / Pug / Mixed", "Terrier / Chihuahua / Mixed", "Spaniel / Terrier / Mixed", "American Bulldog / Pit Bull Terrier / Mixed", "Poodle / Pekingese / Mixed", "Chinese Shar-Pei / Pit Bull Terrier / Mixed", "Shepherd / Pointer / Mixed"]
